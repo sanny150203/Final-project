@@ -1,0 +1,75 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(doghnuts.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top:363px;
+}
+
+/* Обновленный стиль для центрирования */
+.center-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  padding-bottom: 400px;
+}
+
+form {
+  background-color: #000000;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input, select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: rgb(190, 104, 28);
+  color: #fff;
+  padding: 12px 15px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  margin-left: 85px;
+  
+}
+
+button:hover {
+  background-color: rgb(162, 86, 15);
+}
+
+/* Добавленный стиль для кнопки возврата */
+.back-button {
+  display: block;
+  margin-top: 20px;
+  text-align: center;
+  text-decoration: none;
+  background-color: rgb(190, 104, 28);
+  color: #fff;
+  padding: 12px 15px;
+  border-radius: 12px;
+}
+
+.back-button:hover {
+  background-color: rgb(161, 86, 15);
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
